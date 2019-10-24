@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
 import { EventEmitter } from 'events';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-login',
@@ -15,7 +17,8 @@ export class LoginComponent implements OnInit {
     { username: 'ngqphuc', password: '12345' },
     { username: 'a', password: 'a' }
   ];
-  constructor() { }
+
+  constructor(private router: Router) { }
 
   login() {
     const check = this.arrUser.includes(this.arrUser.find(e =>
@@ -28,7 +31,7 @@ export class LoginComponent implements OnInit {
       this.username = '';
       this.password = '';
     } else {
-       window.location.href = '/main';
+      this.router.navigate(['/main'], { state: { data: { username: this.username } } });
     }
   }
   ngOnInit() {

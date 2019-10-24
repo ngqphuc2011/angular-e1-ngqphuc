@@ -8,7 +8,7 @@ import { MainComponent } from './main/main.component';
 import { Routes, RouterModule } from '@angular/router';
 
 const routesConfig: Routes = [
-  { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   { path: 'main', component: MainComponent }
 ];
 
