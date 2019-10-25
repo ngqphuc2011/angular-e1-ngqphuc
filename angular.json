@@ -24,27 +24,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
-              "src/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css",
-              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
-              "src/assets/vendor/animate/animate.css",
-              "src/assets/vendor/css-hamburgers/hamburgers.min.css",
-              "src/assets/vendor/animsition/css/animsition.min.css",
-              "src/assets/vendor/select2/select2.min.css",
-              "src/assets/vendor/daterangepicker/daterangepicker.css",
-              "src/assets/css/util.css",
-              "src/assets/css/main.css"
+              "src/assets/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+              "src/assets/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css",
+              "src/assets/login/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/login/vendor/animate/animate.css",
+              "src/assets/login/vendor/css-hamburgers/hamburgers.min.css",
+              "src/assets/login/vendor/animsition/css/animsition.min.css",
+              "src/assets/login/vendor/select2/select2.min.css",
+              "src/assets/login/vendor/daterangepicker/daterangepicker.css",
+              "src/assets/login/css/util.css",
+              "src/assets/login/css/main.css"
             ],
             "scripts": [
-              "src/assets/vendor/jquery/jquery-3.2.1.min.js",
-              "src/assets/vendor/animsition/js/animsition.min.js",
-              "src/assets/vendor/bootstrap/js/popper.js",
-              "src/assets/vendor/bootstrap/js/bootstrap.min.js",
-              "src/assets/vendor/select2/select2.min.js",
-              "src/assets/vendor/daterangepicker/moment.min.js",
-              "src/assets/vendor/daterangepicker/daterangepicker.js",
-              "src/assets/vendor/countdowntime/countdowntime.js",
-              "src/assets/js/main.js"
+              "src/assets/login/vendor/jquery/jquery-3.2.1.min.js",
+              "src/assets/login/vendor/animsition/js/animsition.min.js",
+              "src/assets/login/vendor/bootstrap/js/popper.js",
+              "src/assets/login/vendor/bootstrap/js/bootstrap.min.js",
+              "src/assets/login/vendor/select2/select2.min.js",
+              "src/assets/login/vendor/daterangepicker/moment.min.js",
+              "src/assets/login/vendor/daterangepicker/daterangepicker.js",
+              "src/assets/login/vendor/countdowntime/countdowntime.js",
+              "src/assets/login/js/main.js"
             ]
           },
           "configurations": {

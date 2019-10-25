@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  private state$: Observable<object>;
+  username: string;
+  constructor(public router: Router) {
+    this.username = this.router.getCurrentNavigation().extras.state.username;
   }
 
+  ngOnInit() {
+
+  }
 }

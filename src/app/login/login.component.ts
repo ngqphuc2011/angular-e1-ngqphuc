@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
       this.username = '';
       this.password = '';
     } else {
-      this.router.navigate(['/main'], { state: { data: { username: this.username } } });
+      this.router.navigate(['/main'], { state: { username: this.username } });
     }
   }
   ngOnInit() {
